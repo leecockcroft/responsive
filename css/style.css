@@ -26,7 +26,8 @@ body {
   margin: auto; }
   .header-title {
     font-size: 1.6rem;
-    text-align: center; }
+    text-align: center;
+    margin-top: 80px; }
     .header-title-main {
       font-weight: 200; }
     .header-title-sub {
