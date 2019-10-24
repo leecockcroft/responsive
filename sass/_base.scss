@@ -1,0 +1,33 @@
+*,
+*:before,
+*:after {
+margin:0;
+padding:0;
+box-sizing: border-box;
+
+}
+
+html{
+  font-size:62.5%;
+
+}
+
+body{
+      font-family:$-header-font;
+	font-weight: 400;
+font-family: 'Poppins', sans-serif;
+color:hsl(229, 6%, 66%)
+
+}
+
+.container{
+width:95%;
+margin:auto;
+@include respond(tab-port){
+  width:1000px;
+  margin:auto;
+}
+
+
+
+}

@@ -1,0 +1,84 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  font-family: "Tungsten Semibold";
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+  color: #a3a5ae; }
+
+.container {
+  width: 95%;
+  margin: auto; }
+  @media only screen and (min-width: 900px) {
+    .container {
+      width: 1000px;
+      margin: auto; } }
+
+.header {
+  margin: auto; }
+  .header-title {
+    font-size: 1.6rem;
+    text-align: center; }
+    .header-title-main {
+      font-weight: 200; }
+    .header-title-sub {
+      color: #000; }
+  .header-text {
+    font-size: 1.6rem;
+    padding: 20px 0;
+    margin: auto;
+    line-height: 1.5;
+    text-align: center; }
+
+.main {
+  display: flex;
+  flex-direction: column; }
+  @media only screen and (min-width: 900px) {
+    .main {
+      flex-direction: row; } }
+  .main-section {
+    position: relative;
+    box-shadow: 0px 13px 5px #e2dfdf;
+    margin: 20px auto;
+    width: 250px;
+    height: 235px; }
+    .main-section-title {
+      padding-bottom: 18px; }
+    .main-section-container {
+      padding: 20px; }
+    .main-section-p {
+      font-size: 1.5rem; }
+
+.super {
+  border-top: 2px solid #45d3d3;
+  align-self: center; }
+
+.team {
+  border-top: 2px solid #ea5353;
+  align-self: flex-start; }
+
+.karma {
+  border-top: 2px solid #fcaf4a;
+  align-self: flex-end; }
+
+.calc {
+  border-top: 2px solid #45d3d3;
+  align-self: center; }
+
+.svg {
+  text-align: right;
+  position: absolute;
+  right: 27px;
+  bottom: 11px; }
+
+footer {
+  text-align: center;
+  margin-top: 20px; }

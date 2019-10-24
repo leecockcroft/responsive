@@ -1,0 +1,28 @@
+.super{
+  border-top:2px solid hsl(180, 62%, 55%);
+      align-self: center;
+}
+.team{
+  border-top:2px solid hsl(0, 78%, 62%);
+      align-self: flex-start;
+}
+.karma{
+  border-top:2px solid hsl(34, 97%, 64%);
+      align-self: flex-end;
+}
+.calc{
+  border-top:2px solid hsl(180, 62%, 55%);
+      align-self: center;
+}
+
+.svg{
+  text-align: right;
+position: absolute;
+right: 27px;
+bottom: 11px;
+}
+
+footer{
+  text-align:center;
+  margin-top:20px
+}
